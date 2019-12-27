@@ -4,7 +4,6 @@
   '(("scribblings/manual.scrbl" ())))
 
 (define deps '(
-  "https://github.com/thoughtstem/TS-Kata-Collections.git?path=ts-kata-util"
-  "https://github.com/thoughtstem/fandom-sprites.git"
-  ))
+               "https://github.com/thoughtstem/fandom-sheets.git"
+               ))
 
