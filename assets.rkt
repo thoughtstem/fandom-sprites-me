@@ -54,6 +54,25 @@
 (define-animated-sprite tonystark-sheet 4 4 3 tonystark-sprite)
 (define-animated-sprite ironpatriot-sheet 4 4 3 ironpatriot-sprite)
 
+;Star Wars
+(define-animated-sprite twilek-sheet 4 4 3 twilek-sprite)
+(define-animated-sprite darthmaul-sheet 4 4 3 darthmaul-sprite)
+(define-animated-sprite darthvader-sheet 4 4 3 darthvader-sprite)
+(define-animated-sprite bobafett-sheet 4 4 3 bobafett-sprite)
+(define-animated-sprite hansolo-sheet 4 4 3 hansolo-sprite)
+(define-animated-sprite luke-sheet 4 4 3 luke-sprite)
+(define-animated-sprite obiwan-sheet 4 4 3 obiwan-sprite)
+(define-animated-sprite padawan-sheet 4 4 3 padawan-sprite)
+(define-animated-sprite princessleia-sheet 4 4 3 princessleia-sprite)
+(define-animated-sprite yoda-sheet 4 4 3 yoda-sprite)
+(define-animated-sprite r2d2-sheet 4 4 3 r2d2-sprite)
+(define-animated-sprite stormtrooper-sheet 4 4 3 stormtrooper-sprite)
+(define-animated-sprite c2po-sheet 4 4 3 c2po-sprite)
+(define-animated-sprite c3po-sheet 4 4 3 c3po-sprite)
+(define-animated-sprite chewie-sheet 4 4 3 chewie-sprite)
+(define-animated-sprite lando-sheet 4 4 3 lando-sprite)
+(define-animated-sprite rebelpilot-sheet 4 4 3 rebelpilot-sprite)
+
 ; MINECRAFT
 (define-animated-sprite steve-sheet 1 2 1 steve-sprite)
 (define-animated-sprite alex-sheet 1 2 1 alex-sprite)
