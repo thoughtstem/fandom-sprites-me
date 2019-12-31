@@ -30,7 +30,7 @@ before_install:
 
 install:
  - cd $TRAVIS_BUILD_DIR
- - raco pkg install --auto fandom-sprites-me
+ - raco pkg install --auto fandom-sprites-me/
  
 before_script:
 
