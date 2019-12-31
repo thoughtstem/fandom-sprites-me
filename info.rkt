@@ -5,5 +5,6 @@
 
 (define deps '(
                "https://github.com/thoughtstem/fandom-sheets.git"
+               "https://github.com/thoughtstem/meta-engine.git?path=meta-engine"
                ))
 
