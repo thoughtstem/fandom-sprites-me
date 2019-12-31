@@ -4,6 +4,14 @@
          meta-engine
          2htdp/image)
 
+(provide all-sprites
+         harrypotter
+         mario
+         marvel
+         starwars
+         minecraft
+         pokemon)
+
 (define (easy-animated-sprite sheet r c n)
   (animated-sprite #:fps 12
                    (sheet->list sheet
@@ -102,3 +110,103 @@
 (define-animated-sprite charmander-sheet 1 5 1 charmander-sprite)
 (define-animated-sprite charmeleon-sheet 1 8 1 charmelon-sprite)
 (define-animated-sprite charizard-sheet 1 8 1 charizard-sprite)
+
+
+(define harrypotter
+  (list "harrypotter-sprite"
+        "flyingbook-sprite"
+        "pumpkin-sprite"
+        "magiccauldron-sprite"
+        "snape-sprite"
+        "tentacula-sprite"
+        "hagrid-sprite"
+        "oldwizard-sprite"))
+
+(define mario
+  (list "princesspeach-sprite"
+        "toad-sprite"
+        "luigi-sprite"
+        "mario-sprite"
+        "yoshi-sprite"
+        "redyoshi-sprite"))
+
+(define marvel
+  (list "blackwidow-sprite"
+        "gamora-sprite"
+        "ironman-sprite"
+        "mandarin-sprite"
+        "redskull-sprite"
+        "starlord-sprite"
+        "wintersoldier-sprite"
+        "captainamerica-sprite"
+        "hawkeye-sprite"
+        "loki-sprite"
+        "nebula-sprite"
+        "rocketracoon-sprite"
+        "thor-sprite"
+        "drax-sprite"
+        "hulk-sprite"
+        "malekith-sprite"
+        "nickfury-sprite"
+        "ronan-sprite"
+        "tonystark-sprite"
+        "ironpatriot-sprite"))
+
+(define starwars
+  (list "twilek-sprite"
+        "darthmaul-sprite"
+        "darthvader-sprite"
+        "bobafett-sprite"
+        "hansolo-sprite"
+        "luke-sprite"
+        "obiwan-sprite"
+        "padawan-sprite"
+        "princessleia-sprite"
+        "yoda-sprite"
+        "r2d2-sprite"
+        "stormtrooper-sprite"
+        "c2po-sprite"
+        "c3po-sprite"
+        "chewie-sprite"
+        "lando-sprite"
+        "rebelpilot-sprite"))
+
+
+(define minecraft
+  (list "steve-sprite"
+        "alex-sprite"
+        "creeper-sprite"
+        "chicken-sprite"
+        "pig-sprite"
+        "sheep-sprite"
+        "skeleton-sprite"
+        "ghast-sprite"))
+
+(define pokemon
+  (list "armoredmewtwo-sprite"
+        "pikachu-sprite"
+        "pikachurun-sprite"
+        "jessie-sprite"
+        "james-sprite"
+        "redboy-sprite"
+        "redgirl-sprite"
+        "greenboy-sprite"
+        "greengirl-sprite"
+        "bulbasaur-sprite"
+        "ivysaur-sprite"
+        "venasaur-sprite"
+        "squirtle-sprite"
+        "wartortle-sprite"
+        "blastoise-sprite"
+        "charmander-sprite"
+        "charmelon-sprite"
+        "charizard-sprite"))
+
+
+(define all-sprites
+  (append harrypotter
+          mario
+          marvel
+          starwars
+          minecraft
+          pokemon))
