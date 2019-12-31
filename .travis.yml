@@ -29,7 +29,7 @@ before_install:
 - export PATH="${RACKET_DIR}/bin:${PATH}" #install-racket.sh can't set for us
 
 install:
-- raco pkg install --auto fandom-sprites-me/
+- cd .. && raco pkg install --auto fandom-sprites-me/
  
 before_script:
 
