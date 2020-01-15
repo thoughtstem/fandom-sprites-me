@@ -2,7 +2,8 @@
 
 (require fandom-sheets
          meta-engine
-         2htdp/image)
+         2htdp/image
+         pokemon-assets)
 
 (provide all-sprites
          harrypotter
