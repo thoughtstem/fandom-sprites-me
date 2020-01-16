@@ -1,1 +1,0 @@
-("7.4" racket ("6e5f89cb5a6df073cff4706f6773565804f632da" . "59f4a0fcbc14b706c3ff95b69d0346afac22be6d") (collects #"2htdp" #"image.rkt") (collects #"errortrace" #"errortrace-key.rkt") (collects #"fandom-sprites" #"main.rkt") (collects #"meta-engine" #"main.rkt") (collects #"racket" #"main.rkt") (collects #"racket" #"runtime-config.rkt"))
