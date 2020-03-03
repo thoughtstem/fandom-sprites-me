@@ -115,9 +115,7 @@
 
 (define harrypotter
   (list "harrypotter-sprite"
-        "flyingbook-sprite"
         "pumpkin-sprite"
-        "magiccauldron-sprite"
         "snape-sprite"
         "tentacula-sprite"
         "hagrid-sprite"
